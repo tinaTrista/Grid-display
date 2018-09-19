@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="./index.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/fonticons/fonts.css" rel="stylesheet" type="text/css" />
+  <title>CRUISE</title>
+</head>
+
+<body>
+  <div id="header">
+    <embed src="./assets/logo/logo.svg" class="logo" />
+    <div id='menu-icon'>
+      <span class='icon-navicon'></span>
+    </div>
+    <div id="user">
+      <div id='user-img'></div>
+      <span id="user-angle" class="icon-angle-down"></span>
+    </div>
+    <div id="user-info">
+      <ul>
+        <li><span class="icon-id-card"></span>Profile</li>
+        <li><span class="icon-sign-in"></span>Sign out</li>
+      </ul>
+    </div>
+  </div>
+  <div id="main">
+    <div id="left">
+      <div class='close'><span class='icon-close'></span></div>
+      <div id="menu">
+        <ul>
+          <li><span class="icon-dashboard"></span>DASHBOARD</li>
+          <li><span class="icon-sitemap"></span>AGENT</li>
+          <li><span class="icon-boat"></span>MY CRUISE</li>
+          <li><span class="icon-life-bouy"></span>HELP</li>
+        </ul>
+      </div>
+      <div id='history'>
+        <p>History</p>
+        <ul>
+          <li>bjstdmngbgr02/Acceptance_test</li>
+          <li>bjstdmngbgr03/Acceptance_test</li>
+          <li>bjstdmngbgr04/Acceptance_test</li>
+          <li>bjstdmngbgr05/Acceptance_test</li>
+          <li>bjstdmngbgr06/Acceptance_test</li>
+          <li>bjstdmngbgr07/Acceptance_test</li>
+          <li>bjstdmngbgr08/Acceptance_test</li>
+          <li>bjstdmngbgr09/Acceptance_test</li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div id="monitor">
+        <div id="one">
+          <span class="icon-cog Rotation"></span>
+          <div class="title">Building</div>
+          <div class="numb">3</div>
+        </div>
+        <div id="two">
+          <span class="icon-coffee"></span>
+          <div class="title">idle</div>
+          <div class="numb">5</div>
+        </div>
+        <div id="three">
+          <div class="all" id='three-1'>
+            <div class="title">ALL</div>
+            <div class="numb">8</div>
+          </div>
+          <div class="all" id='three-2'>
+            <div class="title">PYSICAL</div>
+            <div class="numb">4</div>
+          </div>
+          <div class="all" id='three-3'>
+            <div class="title">VIRTUAL</div>
+            <div class="numb">4</div>
+          </div>
+        </div>
+      </div>
+      <div id="opration">
+        <div class="tab" id="tab-1">All</div>
+        <div class="tab" id="tab-2">Physical</div>
+        <div class="tab" id="tab-3">Virtual</div>
+        <div class="search" id="icon-search">
+          <input  type='text'/>
+          <span class="icon-search"></span>
+        </div>
+        <div class="th" id='th-card'>
+          <span class="icon-th-card"></span>
+        </div>
+        <div class="th" id="th-list">
+          <span class="icon-th-list"></span>
+        </div>
+      </div>
+      <div id="list">
+        <div class="item" id="window-1">
+          <div class="os-icon"><img src="./assets/osicons/windows.png" /></div>
+          <div class="os-info">
+            <div class="os-status">
+              <span><span class="icon-desktop"></span> <span class="address">bjssdfwefwfwefwef.com</span></span>
+              <span class="status-idle">idle</span>
+              <span class="ip"><span class="icon-info"></span> 192.168.1.102</span>
+              <span class="path"><span class="icon-folder"></span> /var/lib/cruise-arent</span>
+            </div>
+            <div class="os-surport">
+              <div id="windows-list">
+                <span class="icon-plus"></span>
+                <span class="surport">Firfox <span class="icon-trash"></span></span>
+                <span class="surport">Safari <span class="icon-trash"></span></span>
+                <span class="surport">Ubuntu <span class="icon-trash"></span></span>
+                <span class="surport">Chrome <span class="icon-trash"></span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="window-2">
+          <div class="os-icon"><img src="./assets/osicons/windows.png" /></div>
+          <div class="os-info">
+            <div class="os-status">
+              <span><span class="icon-desktop"></span> <span class="address">bjssdfwefwfwefwef.com</span></span>
+              <span class="status-building">building</span>
+              <span class="ip"><span class="icon-info"></span> 192.168.1.102</span>
+              <span class="path"><span class="icon-folder"></span> /var/lib/cruise-arent</span>
+            </div>
+            <div class="os-surport">
+              <div>
+                <span class="icon-plus"></span>
+                <span class="surport">Firfox <span class="icon-trash"></span></span>
+                <span class="surport">Safari <span class="icon-trash"></span></span>
+                <span class="surport">Ubuntu <span class="icon-trash"></span></span>
+                <span class="surport">Chrome <span class="icon-trash"></span></span>
+              </div>
+              <div class="deny"><span class="icon-deny"></span> Deny</div>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="debin">
+          <div class="os-icon">
+            <img src="./assets/osicons/debin.png" /></div>
+          <div class="os-info">
+            <div class="os-status">
+              <span><span class="icon-desktop"></span> <span class="address">bjssdfwefwfwefwef.com</span></span>
+              <span class="status-building">building</span>
+              <span class="ip"><span class="icon-info"></span> 192.168.1.102</span>
+              <span class="path"><span class="icon-folder"></span> /var/lib/cruise-arent</span>
+            </div>
+            <div class="os-surport">
+              <div>
+                <span class="icon-plus"></span>
+                <span class="surport">Firfox <span class="icon-trash"></span></span>
+                <span class="surport">Safari <span class="icon-trash"></span></span>
+                <span class="surport">Ubuntu <span class="icon-trash"></span></span>
+              </div>
+              <div class="deny"><span class="icon-deny"></span> Deny</div>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="centos">
+          <div class="os-icon">
+            <img src="./assets/osicons/cent_os.png" /></div>
+          <div class="os-info">
+            <div class="os-status">
+              <span><span class="icon-desktop"></span> <span class="address">bjssdfwefwfwefwef.com</span></span>
+              <span class="status-building">building</span>
+              <span class="ip"><span class="icon-info"></span> 192.168.1.102</span>
+              <span class="path"><span class="icon-folder"></span> /var/lib/cruise-arent</span>
+            </div>
+            <div class="os-surport">
+              <div>
+                <span class="icon-plus"></span>
+                <span class="surport">Firfox <span class="icon-trash"></span></span>
+                <span class="surport">Safari <span class="icon-trash"></span></span>
+                <span class="surport">Ubuntu <span class="icon-trash"></span></span>
+                <span class="surport">Chrome <span class="icon-trash"></span></span>
+              </div>
+              <div class="deny"><span class="icon-deny"></span> Deny</div>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="ubuntu">
+          <div class="os-icon">
+            <img src="./assets/osicons/ubuntu.png" /></div>
+          <div class="os-info">
+            <div class="os-status">
+              <span><span class="icon-desktop"></span> <span class="address">bjssdfwefwfwefwef.com</span></span>
+              <span class="status-idle">idle</span>
+              <span class="ip"><span class="icon-info"></span> 192.168.1.102</span>
+              <span class="path"><span class="icon-folder"></span> /var/lib/cruise-arent</span>
+            </div>
+            <div class="os-surport">
+              <div id="ubuntu-list">
+                <span class="icon-plus"></span>
+                <span class="surport">Firfox <span class="icon-trash"></span></span>
+                <span class="surport">Safari <span class="icon-trash"></span></span>
+                <span class="surport">Ubuntu <span class="icon-trash"></span></span>
+                <span class="surport">Chrome <span class="icon-trash"></span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" id="suse">
+          <div class="os-icon"><img src="./assets/osicons/suse.png" /></div>
+          <div class="os-info">
+            <div class="os-status">
+              <span><span class="icon-desktop"></span> <span class="address">bjssdfwefwfwefwef.com</span></span>
+              <span class="status-idle">idle</span>
+              <span class="ip"><span class="icon-info"></span> 192.168.1.102</span>
+              <span class="path"><span class="icon-folder"></span> /var/lib/cruise-arent</span>
+            </div>
+            <div class="os-surport">
+              <div id="suseList">
+                <span class="icon-plus"></span>
+                <span class="surport">Firfox <span class="icon-trash"></span></span>
+                <span class="surport">Safari <span class="icon-trash"></span></span>
+                <span class="surport">Ubuntu <span class="icon-trash"></span></span>
+                <span class="surport">Chrome <span class="icon-trash"></span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
